@@ -1,0 +1,246 @@
+@charset "ISO-8859-1";
+
+li, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icono{
+   
+    border: solid  0px red;
+    background: transparent;
+}
+.resal{
+    font-weight: bold;
+}
+
+.centrado{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formaccidente{
+    margin: 5px;
+    padding: 20px;
+}
+
+/*diseño tabla*/
+#tabla {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+/*+++++++++++*/
+
+/*diseño nav*/
+.nav_diseño {
+    display: inline-block;
+    background: rgba(245, 245, 220
+    );
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav_diseño:hover{
+    background: rgb(247, 247, 166)}
+
+    
+/* Para teléfonos móviles: */ 
+[class*="col-"] { width: 100%;
+} 
+    @media only screen and (min-width: 300px) { 
+        body { background-color: rgb(240, 255, 255
+            ); }
+        .col-1 {width: 8.33%;} 
+        .col-2 {width: 16.66%;} 
+        .col-3 {width: 25%;} 
+        .col-4 {width: 33.33%;} 
+        .col-5 {width: 41.66%;} 
+        .col-6 {width: 50%;} 
+        .col-7 {width: 58.33%;} 
+        .col-8 {width: 66.66%;} 
+        .col-9 {width: 75%;} 
+        .col-10 {width: 83.33%;} 
+        .col-11 {width: 91.66%;} 
+        .col-12 {width: 100%;} 
+
+    }
+    @media only screen and (min-width: 600px) { 
+        /* Para tabletas: */ 
+        body { background-color: rgb(240, 255, 255
+            ); }
+        .col-s-1 {width: 8.33%;} 
+        .col-s-2 {width: 16.66%;} 
+        .col-s-3 {width: 25%;} 
+        .col-s-4 {width: 33.33%;} 
+        .col-s-5 {width: 41.66%;} 
+        .col-s-6 {width: 50%;} 
+        .col-s-7 {width: 58.33%;} 
+        .col-s-8 {width: 66.66%;} 
+        .col-s-9 {width: 75%;} 
+        .col-s-10 {width: 83.33%;} 
+        .col-s-11 {width: 91.66%;} 
+        .col-s-12 {width: 100%;} 
+    }
+    /* Para escritorio: */ 
+    @media only screen and (orientation: landscape) { body { background-color: rgb(240, 255, 255
+        ); } }
+    *{box-sizing:border-box;}
+
+        body{
+            margin: 0 auto;
+            
+        }
+    .left{
+        padding: 20px;
+        background-color: blanchedalmond;
+        height: 300px;
+        float: left;
+        width:35%
+    }
+    .rigth{
+        padding: 20px;
+        background-color: blanchedalmond;
+        height: 300px;
+        float: right;
+        width:35%
+    }
+    .main{
+        padding: 20px;
+        background-color: rgb(184, 113, 8);
+        height: 300px;
+        float: left;
+        width:30%
+    }
+    .menu{
+        padding: 20px;
+        background-color: aqua;
+        
+    }
+
+   
+    @media screen and (max-width:800px) {
+        .left, .right,.main  {
+         width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+/*responsive de la tabla*/
+    @media screen and (max-width: 400px) {
+        table {
+            width:100%;
+        }
+        thead {
+            display: none;
+        }
+        tr:nth-of-type(2n) {
+            background-color: inherit;
+        }
+        tr td:first-child {
+            background: #f0f0f0;
+            font-weight:bold;
+            font-size:1.3em;
+        }
+        tbody td {
+            display: block;
+            text-align:center;
+        }
+        tbody td:before {
+            content: attr(data-th);
+            display: block;
+            text-align:center;
+        }
+ }
+}
+
+#lista1, #lista2{
+    display: none;
+}
+
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+/****DISEÑO LOGIN*****/
+body {
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+  }
+  h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .ingreso {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .ingreso-header {
+    color:#fff;
+    text-align:center;
+    font-size:300%;
+  }
+  /* .login-header h1 {
+     text-shadow: 0px 5px 15px #000;
+  } */
+  .ingreso-form {
+    border:.5px solid #fff;
+    background:#4facff;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+  }
+  .ingreso-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+  }
+  .ingreso-form {
+    box-sizing:border-box;
+    padding-top:15px;
+      padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+  }
+  .ingreso input[type="text"],
+  .ingreso input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+  }
+  .ingreso-form button[type="submit"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#f2f2f2;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  .no-access {
+    color:#E86850;
+    margin:20px 0px 20px -57%;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+/****TERMINO DISEÑO LOGIN******/
